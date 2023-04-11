@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^([0-9]{3})/dl/gs1/01/([0-9]+)/?$ pages/products.php?codigo=$1&ean=$2 [NC,L]
