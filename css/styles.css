@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: Arial, Verdana;
     line-height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header, footer {
@@ -29,7 +29,7 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    margin: 25px;
+    margin: 5px;
 }
 
 header nav ul li a {
@@ -55,7 +55,7 @@ header .page-title {
     font-size: 20px;
     color: black;
     padding: 20px 0px 20px 0px;
-    margin: 20px;
+    margin: 10px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -65,15 +65,15 @@ header .page-title:hover {
 }
 
 header a img {
-    height: 60px;
-    width: 60px;
+    height: 30px;
+    width: 30px;
     padding-left: 10px;
     padding-top: 10px;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 80% 20%;
 }
 
 .grid .coluna {
@@ -97,4 +97,20 @@ main {
 
 .white-space {
     height: 450px;
+}
+
+.table {
+    width: 100%;
+    padding-top: 10px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.table td {
+    border-top: 1px solid #8b8a8a;
+    padding: 10px;
+    width: 50%;
+}
+
+h4 {
+    font-size: large;
 }
