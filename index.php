@@ -24,7 +24,7 @@
             </div>
 
             <?php
-                include "../sidebar.php";
+                //include "../sidebar.php";
             ?>
     </main>
 

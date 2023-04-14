@@ -1,22 +1,57 @@
-/* reset a pagina */
+/* Tela Grande */
+@media only screen and (min-width: 1021px) {
+    body {
+        width: 100%;
+    }
+
+    main {
+        width: 1000px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .coluna {
+        padding: 10px;
+    }
+}
+
+/* Tela média */
+@media only screen and (max-width: 1020px) {
+    body {
+        width: 100%;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        grid-template-columns: 100%;
+    }
+
+    .main-content {
+        width: 90%;
+        margin: auto;
+    }
+
+    .table {
+        width: auto;
+        padding-top: 10px;
+    }
+}
+/* Tela de celular */
+@media only screen and (max-width: 620px) {
+
+    body {
+        background-color: lightyellow;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
-    line-height: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-header, footer {
-    background: rgb(219,137,137);
-    background: radial-gradient(circle, rgba(219,137,137,1) 0%, rgba(143,50,50,1) 100%);
-    padding: 10px;
-}
-
-footer {
-    text-align: center;
 }
 
 header nav {
@@ -71,26 +106,7 @@ header a img {
     padding-top: 10px;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 80% 20%;
-}
-
-.grid .coluna {
-    padding: 10px;
-}
-
-aside {
-    border: 1px solid #666;
-    padding: 10px;
-}
-
-aside ul {
-    margin-left: 25px;
-}
-
 main {
-    width: 1000px;
     padding-top: 20px;
     margin: auto;
 }
@@ -100,17 +116,52 @@ main {
 }
 
 .table {
-    width: 100%;
-    padding-top: 10px;
-    box-shadow: 5px 5px 5px #888888;
+    border: 1px #e4e4e4 solid;
 }
 
 .table td {
-    border-top: 1px solid #8b8a8a;
+    border-top: 1px solid #e4e4e4;
     padding: 10px;
     width: 50%;
 }
 
 h4 {
     font-size: large;
+}
+
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(16, 16, 16);
+}
+
+.footer-item {
+    height: auto;
+    width: auto;
+    margin: 10px;
+}
+
+footer p {
+    color: rgb(157, 157, 157);
+}
+
+.center-content {
+    padding: 20px;
+}
+
+.center-content img {
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-content .img-sup {
+    color: rgb(157, 157, 157);
+    text-align: center;
+    font-size: 2em;
 }

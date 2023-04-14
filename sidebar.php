@@ -1,5 +1,5 @@
 
-<div class="coluna">
+<div class="coluna aside">
                 <aside>
                     <h2>Sidebar</h2>
                     <ul>

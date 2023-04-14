@@ -8,7 +8,7 @@
 
 <main>
     <div class="grid">
-        <div class="coluna">
+        <div class="coluna main-content">
 
 <?php
     // URL real: http://192.168.1.34/gs1_ia/001/01/00000000020725?11=230412&17=230414&3103=000212&3922=000570&3952=002690&3303=000502
@@ -262,16 +262,18 @@
         </div>
 
         <?php
-            include "../sidebar.php";
+            //include "../sidebar.php";
         ?>
 
 </main>
 
-</body>
 
 <?php
 
-    include "../footer.php";
+    // include "../footer.php";
 
 ?>
 </html>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
